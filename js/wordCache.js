@@ -12,6 +12,7 @@ const wordCache = {
 ,"N":["Nazione","Nepotismo"]
 ,"O":["Oligarchia","Organo"]
 ,"P":["Parlamento","Popolazione","Popolo","Potere"]
+,"Q":["Quaderno"]
 ,"R":["Referendum","Repubblica"]
 ,"S":["Schengen","Scomunica","Società","Stato","Suffragio universale"]
 ,"T":["Territorio","Trattato"]
