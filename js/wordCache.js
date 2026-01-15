@@ -15,4 +15,4 @@ const wordCache = {
 ,"R":["Referendum","Repubblica"]
 ,"S":["Schengen","Scomunica","Società","Stato","Suffragio universale"]
 ,"T":["Territorio","Trattato"]
-,"U":["Unione Europea"]};
+,"U":["Utopia","Unione Europea"]};
