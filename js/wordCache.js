@@ -1,0 +1,18 @@
+const wordCache = {
+"A":["Abdicare","Abiurare","Aristocrazia","Assolutismo"]
+,"B":["Borghesia","Brexit"]
+,"C":["Capitale","CECA","CEE","Cittadinanza","Cittadino","Clero","Coalizione","Colonia","Confine","Convenzione","Costituzione"]
+,"D":["Democrazia","Dittatura"]
+,"E":["Esecutivo","Esilio","Euro","Eurozona"]
+,"F":["Federazione"]
+,"G":["Giacinto","Giudiziario","Governo","Guerra civile"]
+,"I":["Istituzione"]
+,"L":["Legge","Legislativo"]
+,"M":["Maastricht","Monarchia","Monopolio"]
+,"N":["Nazione","Nepotismo"]
+,"O":["Oligarchia","Organo"]
+,"P":["Parlamento","Popolazione","Popolo","Potere"]
+,"R":["Referendum","Repubblica"]
+,"S":["Schengen","Scomunica","Società","Stato","Suffragio universale"]
+,"T":["Territorio","Trattato"]
+,"U":["Unione Europea"]};

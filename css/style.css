@@ -1,0 +1,62 @@
+body {
+			background-color: #e2e8f0;
+			background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E"), 
+			linear-gradient(45deg, #e0c39a 25%, #d6b485 25%, #d6b485 50%, #e0c39a 50%, #e0c39a 75%, #d6b485 75%, #d6b485 100%);
+			background-size: 100px 100px, 40px 40px;
+		  }
+		  
+		  .spiral-hole {
+			width: 16px;
+			height: 16px;
+			background: #334155;
+			border-radius: 50%;
+			margin: 18px 8px;
+			box-shadow: inset 1px 1px 3px rgba(0,0,0,0.8);
+			position: relative;
+			z-index: 20;
+		  }
+
+		  .spiral-ring {
+			position: absolute;
+			left: -8px;
+			top: 4px;
+			width: 32px;
+			height: 10px;
+			background: linear-gradient(to bottom, #94a3b8, #cbd5e1, #94a3b8);
+			border-radius: 4px;
+			transform: rotate(-5deg);
+			z-index: 30;
+			box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+		  }
+
+		  .bg-notebook {
+			background-color: white;
+			background-image: linear-gradient(#e2e8f0 1px, transparent 1px);
+			background-size: 100% 2rem;
+		  }
+		  
+		  .bg-grid-paper {
+			background-color: white;
+			background-image: 
+			  linear-gradient(#cbd5e1 1px, transparent 1px),
+			  linear-gradient(90deg, #cbd5e1 1px, transparent 1px);
+			background-size: 20px 20px;
+		  }
+
+		  ::-webkit-scrollbar { width: 10px; }
+		  ::-webkit-scrollbar-track { background: transparent; }
+		  ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 5px; border: 2px solid white; }
+		  ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+		  
+		  /* Utilities for result stamp */
+		  .stamp {
+			  border: 3px solid;
+			  border-radius: 10px;
+			  padding: 10px;
+			  text-transform: uppercase;
+			  font-weight: bold;
+			  font-family: 'Courier New', Courier, monospace;
+			  transform: rotate(-5deg);
+			  display: inline-block;
+			  margin-top: 10px;
+		  }
