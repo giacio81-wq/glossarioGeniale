@@ -8,7 +8,7 @@ const wordCache = {
 ,"G":["Giacinto","Giudiziario","Governo","Guerra civile"]
 ,"I":["Istituzione"]
 ,"L":["Legge","Legislativo"]
-,"M":["Maastricht","Monarchia","Monopolio"]
+,"M":["Maastricht","Mito","Monarchia","Monopolio"]
 ,"N":["Nazione","Nepotismo"]
 ,"O":["Oligarchia","Organo"]
 ,"P":["Parlamento","Popolazione","Popolo","Potere"]
