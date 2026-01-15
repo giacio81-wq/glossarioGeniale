@@ -6,6 +6,7 @@ const wordCache = {
 ,"E":["Esecutivo","Esilio","Euro","Eurozona"]
 ,"F":["Federazione"]
 ,"G":["Giacinto","Giudiziario","Governo","Guerra civile"]
+,"H":[]
 ,"I":["Istituzione"]
 ,"L":["Legge","Legislativo"]
 ,"M":["Maastricht","Mito","Monarchia","Monopolio"]
@@ -16,4 +17,6 @@ const wordCache = {
 ,"R":["Referendum","Repubblica"]
 ,"S":["Schengen","Scomunica","Società","Stato","Suffragio universale"]
 ,"T":["Territorio","Trattato"]
-,"U":["Utopia","Unione Europea"]};
+,"U":["Utopia","Unione Europea"]
+,"Z":[]
+};
