@@ -16,7 +16,7 @@ const wordCache = {
 ,"Q":["Quaderno"]
 ,"R":["Referendum","Repubblica"]
 ,"S":["Schengen","Scomunica","Società","Stato","Suffragio universale"]
-,"T":["Territorio","Trattato"]
+,"T":["Tazza","Territorio","Trattato"]
 ,"U":["Utopia","Unione Europea"]
 ,"Z":[]
 };
