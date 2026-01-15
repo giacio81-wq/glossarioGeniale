@@ -10,7 +10,7 @@ const wordCache = {
 ,"I":["Istituzione"]
 ,"L":["Legge","Legislativo"]
 ,"M":["Maastricht","Mito","Monarchia","Monopolio"]
-,"N":["Nazione","Nepotismo"]
+,"N":["Nazione","Neghittoso","Nepotismo"]
 ,"O":["Oligarchia","Organo"]
 ,"P":["Parlamento","Popolazione","Popolo","Potere"]
 ,"Q":["Quaderno"]
