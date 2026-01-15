@@ -367,7 +367,22 @@ function nextQuestion() {
 	`;
 }
 
+async function convertAllImagesToBase64() {
+    for (const word in definitionCache) {
+        const entry = definitionCache[word];
+        if (entry.imageUrl && !entry.imageUrl.startsWith("data:image")) {
+            try {
+                const base64 = await pngToBase64(entry.imageUrl);
+                entry.imageUrl = base64; // sostituisce la stringa
+            } catch (err) {
+                console.error("Errore conversione:", word, err);
+            }
+        }
+    }
+}
+
 showHome();
+convertAllImagesToBase64();
 
 window.speak=speak;
 window.speakDefinition=speakDefinition;
