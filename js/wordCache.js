@@ -1,6 +1,6 @@
 const wordCache = {
 "A":["Abdicare","Abiurare","Aristocrazia","Assolutismo"]
-,"B":["Borghesia","Brexit"]
+,"B":["Borghesia","Borioso","Brexit"]
 ,"C":["Capitale","CECA","CEE","Cittadinanza","Cittadino","Clero","Coalizione","Colonia","Confine","Convenzione","Costituzione"]
 ,"D":["Democrazia","Dittatura"]
 ,"E":["Esecutivo","Esilio","Euro","Eurozona"]
